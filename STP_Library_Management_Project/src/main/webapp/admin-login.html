@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="css/admin-login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <div class="admin-box">
+            <h2>Admin Login</h2>
+            <form action="admin/login" method="post">
+                <div class="input-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter admin email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password"><i class="fas fa-lock"></i> Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter password" required>
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+                <p class="back-link"><a href="index.html"><i class="fas fa-arrow-left"></i> Back to Home</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

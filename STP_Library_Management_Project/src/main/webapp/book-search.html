@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Search Books</title>
+<link rel="stylesheet" href="css/book-search.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Search Books</h1>
+            <a href="logout" id="logoutbtn">logout</a>
+        </header>
+
+        <div class="btnSrch">
+            <input type="text" id="searchInput" placeholder="Search by title or author">
+            <button id="searchBtn">Search</button>
+        </div>
+        
+        <div id="results"></div>
+        
+        <script src="js/book-search.js"></script>
+    </div>
+</body>
+</html>

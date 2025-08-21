@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  border: none;
+  background: #007BFF;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #0056b3;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.book {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+}
+
+.book:last-child {
+  border-bottom: none;
+}
+
+
+#results {
+  display: flex;          /* Flex layout */
+  flex-wrap: wrap;        /* Wrap to next line when full */
+  gap: 20px;              /* Space between books */
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;  /* Stack image and details vertically */
+  align-items: center;
+  width: 180px;            /* Fixed width for each book card */
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.book img {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.book-details {
+  width: 100%;
+}
+
+.book-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.book-author {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container input{
+    width: 50%;
+    height: 20px;
+    text-align: center;
+
+}
+.container button{
+    width: 35%;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:rgba(244, 115, 93, 0.921);
+    color: white;
+    /* transition: all 0.2s linear; */
+}
+.container button:hover{
+    background-color:rgb(230, 38, 38);
+    color: white;
+    box-shadow: 1px 1px 5px black;
+}
+
+.btnSrch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.borrowBtn{
+    width: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logoutbtn{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(94, 166, 94);
+    cursor: pointer;
+    /* list-style:none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoutbtn:hover{
+    background-color:green;
+    box-shadow: 1px 1px 5px black;
+    
+}
